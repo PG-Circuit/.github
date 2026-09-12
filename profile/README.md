@@ -13,7 +13,7 @@
   <a href="https://pgcircuit.com">Website</a> ·
   <a href="https://pgcircuit.com/docs">Docs</a> ·
   <a href="https://pgcircuit.com/pricing">Pricing</a> ·
-  <a href="https://github.com/PG-Circuit/pg-circuit">Community (Apache 2.0)</a>
+  <a href="https://github.com/PG-Circuit/pg-circuit">Open source (Community)</a>
 </p>
 
 ---
@@ -28,16 +28,18 @@
 
 Unlike migration linters or proxies, PG Circuit runs **inside PostgreSQL** and sees live database state.
 
-| Product | What it is |
-|--------|------------|
-| **[Community](https://github.com/PG-Circuit/pg-circuit)** | Free Apache 2.0 on-box breaker + basic CLI |
-| **[Pro](https://pgcircuit.com/pro)** | Policies, blast-radius checks, official binaries (sales) |
-| **[Cloud](https://pgcircuit.com/cloud)** | Pro + hosted fleet control plane (sales) |
+| Product | Availability |
+|--------|--------------|
+| **[Community](https://github.com/PG-Circuit/pg-circuit)** | Public on GitHub · Apache 2.0 · free forever |
+| **[Pro](https://pgcircuit.com/pro)** | Commercial · sales · not a public GitHub repo |
+| **[Cloud](https://pgcircuit.com/cloud)** | Commercial · sales · not a public GitHub repo |
 | **[Enterprise](https://pgcircuit.com/pricing)** | Contracted support |
+
+> Only **Community** (`pg-circuit`) is open source. Pro and Cloud ship via [pgcircuit.com](https://pgcircuit.com) — their source stays private.
 
 ---
 
-## Open source
+## Open source on GitHub
 
 <table>
   <tr>
@@ -47,7 +49,7 @@ Unlike migration linters or proxies, PG Circuit runs **inside PostgreSQL** and s
       </a>
     </td>
     <td>
-      <strong><a href="https://github.com/PG-Circuit/pg-circuit">pg-circuit</a></strong><br/>
+      <strong><a href="https://github.com/PG-Circuit/pg-circuit">pg-circuit</a></strong> — Community<br/>
       Circuit breaker for production PostgreSQL. Native extension · deterministic risk · observe / warn / enforce.<br/>
       <code>postgresql</code> · <code>circuit-breaker</code> · <code>database-security</code> · <code>sql-guardrails</code>
     </td>
@@ -64,7 +66,8 @@ DELETE FROM users;
 ## Learn more
 
 - **Website:** [pgcircuit.com](https://pgcircuit.com)
-- **Quick start:** [pgcircuit.com/docs](https://pgcircuit.com/docs)
+- **Docs / quick start:** [pgcircuit.com/docs](https://pgcircuit.com/docs)
+- **Pro & Cloud:** [pricing](https://pgcircuit.com/pricing) · [sales](mailto:sales@pgcircuit.com)
 - **Packaging & install:** [PACKAGING.md](https://github.com/PG-Circuit/pg-circuit/blob/main/PACKAGING.md)
 - **Contact:** [hello@pgcircuit.com](mailto:hello@pgcircuit.com)
 
